@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified data Readme file">
+    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified the merged dataset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detector/src/merge-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/src/merge-data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786862581188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modified the merged dataset">
+      <option name="closed" value="true" />
+      <created>1786903033615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1786903033615</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +156,7 @@
     <MESSAGE value="short data analysis" />
     <MESSAGE value="merged the dataset" />
     <MESSAGE value="modified data Readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified data Readme file" />
+    <MESSAGE value="modified the merged dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the merged dataset" />
   </component>
 </project>
