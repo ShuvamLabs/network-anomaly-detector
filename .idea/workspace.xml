@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="short data analysis">
+      <change afterPath="$PROJECT_DIR$/Detector/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detector/src/merge-data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShuvamLabs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ShuvamLabs/network-anomaly-detector.git&quot;,
+    &quot;accountId&quot;: &quot;fcb6ba48-917e-42fe-85b5-04b4e32fa04c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3HqxmMJgZat1kx8nkA6AEK8sgv5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.merge-data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/HP/Documents/PycharmProjects/network-anomaly-detector"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Documents\PycharmProjects\network-anomaly-detector\Detector\data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-116fdca60d1a-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="" />
+      <created>1786609557883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786609557883</updated>
+    </task>
+    <task id="LOCAL-00001" summary="modified git ignore">
+      <option name="closed" value="true" />
+      <created>1786611588809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786611588809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modified data folder">
+      <option name="closed" value="true" />
+      <created>1786611620301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786611620301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added new notebook">
+      <option name="closed" value="true" />
+      <created>1786614876539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786614876539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="short data analysis">
+      <option name="closed" value="true" />
+      <created>1786740186364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786740186364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="short data analysis">
+      <option name="closed" value="true" />
+      <created>1786819962743</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786819962743</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="added dataset" />
+    <MESSAGE value="modified git ignore" />
+    <MESSAGE value="modified data folder" />
+    <MESSAGE value="added new notebook" />
+    <MESSAGE value="short data analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="short data analysis" />
+  </component>
+</project>
