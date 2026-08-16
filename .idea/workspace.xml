@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="merged the dataset" />
+    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified data Readme file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/src/merge-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/src/merge-data.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786862362743</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modified data Readme file">
+      <option name="closed" value="true" />
+      <created>1786862581188</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1786862581188</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +148,7 @@
     <MESSAGE value="added new notebook" />
     <MESSAGE value="short data analysis" />
     <MESSAGE value="merged the dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged the dataset" />
+    <MESSAGE value="modified data Readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified data Readme file" />
   </component>
 </project>
