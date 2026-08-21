@@ -219,4 +219,5 @@ __marimo__/
 
 # Dataset
 data/*.csv
+data/processed-data/*.csv
 !data/.gitkeep

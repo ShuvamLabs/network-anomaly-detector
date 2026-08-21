@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified the notebooks">
+      <change afterPath="$PROJECT_DIR$/Detector/data/processed-data/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detector/notebooks/02-data-preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/02-data-preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/notebooks/02-data-preprocessing.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Documents\PycharmProjects\network-anomaly-detector\Detector\data" />
+      <recent name="C:\Users\HP\Documents\PycharmProjects\network-anomaly-detector\Detector\data\raw" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -209,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787214236930</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787218438600</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1787218438600</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
