@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="Finished the model selection">
+    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="saved the model as an onnx file">
+      <change afterPath="$PROJECT_DIR$/Detector/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detector/models/network_anomaly_detector.onnx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787608108954</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Finished the model selection">
+      <option name="closed" value="true" />
+      <created>1787613359379</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1787613359379</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,6 +296,7 @@
     <MESSAGE value="modified the notebooks and saved the cleaned data" />
     <MESSAGE value="modified the notebooks" />
     <MESSAGE value="Finished the model selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the model selection" />
+    <MESSAGE value="saved the model as an onnx file" />
+    <option name="LAST_COMMIT_MESSAGE" value="saved the model as an onnx file" />
   </component>
 </project>

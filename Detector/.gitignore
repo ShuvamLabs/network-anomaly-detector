@@ -221,3 +221,7 @@ __marimo__/
 data/*.csv
 data/processed-data/*.csv
 !data/.gitkeep
+
+# Models
+models/*.onnx
+!models/.gitkeep
