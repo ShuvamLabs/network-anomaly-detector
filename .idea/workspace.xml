@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified the notebooks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787580055800</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787592039369</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1787592039369</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
