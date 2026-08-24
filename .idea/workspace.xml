@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified the notebooks and saved the cleaned data">
-      <change afterPath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" afterDir="false" />
+    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="modified the notebooks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787309002305</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787314102299</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1787314102299</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,8 +250,8 @@
     <MESSAGE value="modified the data observation notebook" />
     <MESSAGE value="finalised the EDA" />
     <MESSAGE value="added new notebook for preprocessing" />
-    <MESSAGE value="modified the notebooks" />
     <MESSAGE value="modified the notebooks and saved the cleaned data" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified the notebooks and saved the cleaned data" />
+    <MESSAGE value="modified the notebooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the notebooks" />
   </component>
 </project>
