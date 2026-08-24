@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/01-data-observation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/02-data-cleaning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787314102299</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787580055800</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1787580055800</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
