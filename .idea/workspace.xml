@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="saved the model as an onnx file">
+      <change afterPath="$PROJECT_DIR$/Detector/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detector/models/network_anomaly_detector.onnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Detector/notebooks/03-model-selection.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShuvamLabs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ShuvamLabs/network-anomaly-detector.git&quot;,
+    &quot;accountId&quot;: &quot;fcb6ba48-917e-42fe-85b5-04b4e32fa04c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3HqxmMJgZat1kx8nkA6AEK8sgv5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.merge-data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HP/Documents/PycharmProjects/network-anomaly-detector"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Documents\PycharmProjects\network-anomaly-detector\Detector\data" />
+      <recent name="C:\Users\HP\Documents\PycharmProjects\network-anomaly-detector\Detector\data\raw" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-116fdca60d1a-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28539.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8941aee-6d7c-47dd-b07d-eea7369fac87" name="Changes" comment="" />
+      <created>1786609557883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786609557883</updated>
+    </task>
+    <task id="LOCAL-00001" summary="modified git ignore">
+      <option name="closed" value="true" />
+      <created>1786611588809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786611588809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modified data folder">
+      <option name="closed" value="true" />
+      <created>1786611620301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786611620301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added new notebook">
+      <option name="closed" value="true" />
+      <created>1786614876539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786614876539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="short data analysis">
+      <option name="closed" value="true" />
+      <created>1786740186364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786740186364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="short data analysis">
+      <option name="closed" value="true" />
+      <created>1786819962743</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786819962743</updated>
+    </task>
+    <task id="LOCAL-00006" summary="merged the dataset">
+      <option name="closed" value="true" />
+      <created>1786862362743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1786862362743</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modified data Readme file">
+      <option name="closed" value="true" />
+      <created>1786862581188</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1786862581188</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modified the merged dataset">
+      <option name="closed" value="true" />
+      <created>1786903033615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1786903033615</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified the data observation notebook">
+      <option name="closed" value="true" />
+      <created>1786910524835</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1786910524835</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modified the data observation notebook">
+      <option name="closed" value="true" />
+      <created>1786997817322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1786997817323</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modified the data observation notebook">
+      <option name="closed" value="true" />
+      <created>1787130264863</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1787130264863</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modified the data observation notebook">
+      <option name="closed" value="true" />
+      <created>1787137394437</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1787137394437</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modified the data observation notebook">
+      <option name="closed" value="true" />
+      <created>1787168098424</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1787168098424</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finalised the EDA">
+      <option name="closed" value="true" />
+      <created>1787169380502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1787169380502</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added new notebook for preprocessing">
+      <option name="closed" value="true" />
+      <created>1787177840498</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1787177840498</updated>
+    </task>
+    <task id="LOCAL-00016" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787214236930</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1787214236930</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787218438600</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1787218438600</updated>
+    </task>
+    <task id="LOCAL-00018" summary="modified the notebooks and saved the cleaned data">
+      <option name="closed" value="true" />
+      <created>1787309002305</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1787309002305</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787314102299</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1787314102299</updated>
+    </task>
+    <task id="LOCAL-00020" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787580055800</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1787580055800</updated>
+    </task>
+    <task id="LOCAL-00021" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787592039369</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1787592039369</updated>
+    </task>
+    <task id="LOCAL-00022" summary="modified the notebooks">
+      <option name="closed" value="true" />
+      <created>1787597917951</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1787597917951</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Finished the model selection">
+      <option name="closed" value="true" />
+      <created>1787608108954</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1787608108954</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Finished the model selection">
+      <option name="closed" value="true" />
+      <created>1787613359379</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1787613359379</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="added dataset" />
+    <MESSAGE value="modified git ignore" />
+    <MESSAGE value="modified data folder" />
+    <MESSAGE value="added new notebook" />
+    <MESSAGE value="short data analysis" />
+    <MESSAGE value="merged the dataset" />
+    <MESSAGE value="modified data Readme file" />
+    <MESSAGE value="modified the merged dataset" />
+    <MESSAGE value="modified the data observation notebook" />
+    <MESSAGE value="finalised the EDA" />
+    <MESSAGE value="added new notebook for preprocessing" />
+    <MESSAGE value="modified the notebooks and saved the cleaned data" />
+    <MESSAGE value="modified the notebooks" />
+    <MESSAGE value="Finished the model selection" />
+    <MESSAGE value="saved the model as an onnx file" />
+    <option name="LAST_COMMIT_MESSAGE" value="saved the model as an onnx file" />
+  </component>
+</project>

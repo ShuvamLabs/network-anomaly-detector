@@ -184,11 +184,31 @@ int main() {
     if (adhandle == nullptr) return 1;
 
     std::cout << "Listening for traffic...\n";
-    ort_env = new Ort::Env(ORT_LOGGING_LEVEL_WARNING, "NetworkAnomaly");
+    // Change this line (around line 144)
+    ort_env = new Ort::Env(ORT_LOGGING_LEVEL_VERBOSE, "NetworkAnomaly");
     Ort::SessionOptions session_options;
     session_options.SetIntraOpNumThreads(1);
 
-    ort_session = new Ort::Session(*ort_env, L"anomaly_detector.onnx", session_options);
+    std::cout << "Attempting to load ONNX model into memory...\n";
+
+    try {
+        ort_session = new Ort::Session(*ort_env, L"C:\\Users\\Admin\\Desktop\\NAD\\out\\build\\x64-Release\\network_anomaly_detector.onnx", session_options);
+        std::cout << "[+] ONNX Model loaded successfully!\n";
+    }
+    catch (const Ort::Exception& e) {
+        std::cerr << "\n========================================\n";
+        std::cerr << "[!!! FATAL ONNX RUNTIME ERROR !!!]\n";
+        std::cerr << e.what() << "\n";
+        std::cerr << "========================================\n\n";
+
+        // Clean up and exit so the window doesn't instantly close
+        delete ort_env;
+        return 1;
+    }
+    catch (const std::exception& e) {
+        std::cerr << "\n[!!! STANDARD C++ EXCEPTION !!!]\n" << e.what() << "\n";
+        return 1;
+    }
 
     pcap_loop(adhandle, 0, packet_handler, nullptr);
 

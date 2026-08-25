@@ -31,9 +31,15 @@ target_link_libraries(capturer PRIVATE
     onnxruntime
 )
 
-# 5. CRITICAL FIX: Automatically copy the ONNX DLL to the build output directory!
+# Automatically copy BOTH ONNX DLLs and the model to the build output directory
 add_custom_command(TARGET capturer POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
     "${ONNX_DIR}/lib/onnxruntime.dll"
+    $<TARGET_FILE_DIR:capturer>
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    "${ONNX_DIR}/lib/onnxruntime_providers_shared.dll"
+    $<TARGET_FILE_DIR:capturer>
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    "${CMAKE_SOURCE_DIR}/network_anomaly_detector.onnx"
     $<TARGET_FILE_DIR:capturer>
 )
