@@ -10,7 +10,7 @@ set(NPCAP_SDK_DIR "C:/Npcap-SDK")
 set(ONNX_DIR "C:/onnxruntime")
 
 # 1. Define the executable first
-add_executable(capturer main.cpp)
+add_executable(capturer main.cpp app.rc)
 
 # 2. Add Include Directories (Modern Target-based approach)
 target_include_directories(capturer PRIVATE 
