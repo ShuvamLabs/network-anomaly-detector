@@ -27,6 +27,42 @@ The TrackNET engine is built for microsecond-latency processing, designed to sit
 ## 🧠 Machine Learning & Data Science (Detector)
 **Lead Developer:** Shuvam Chatterjee
 
+The Detector module implements the full ML pipeline for anomaly detection. It covers **data preparation, model training, evaluation, and deployment**.
+
+---
+
+### 🔬 ML Workflow
+
+#### 1. Data Collection & Cleaning
+- Merge multiple traffic datasets.  
+- Remove duplicates, handle missing values, normalize features.  
+- Save cleaned dataset for reproducibility.  
+
+#### 2. Feature Engineering
+- Extract flow-level features:
+  - TCP handshake timings (SYN, SYN-ACK, ACK)  
+  - RTT distributions  
+  - Packet size statistics  
+  - TTL variance  
+  - Payload bitrate ratios  
+- Store processed features in `processed-data/`.
+
+#### 3. Model Selection & Training
+- Compare classifiers (Random Forest, Logistic Regression).  
+- Random Forest chosen for best balance of accuracy and speed.  
+- Train on labeled datasets (Normal vs. DoS, Exploit, Shellcode).  
+- Evaluate with metrics: **accuracy, precision, recall, F1-score**.
+
+#### 4. Model Export
+- Final Random Forest model exported to **ONNX format**.  
+- Stored in `models/` for deployment.
+
+#### 5. Real-Time Inference
+- ONNX Runtime loads the model in the C++ engine.  
+- Feature vectors from live traffic passed directly to the model.  
+- Predictions generated inline with packet capture (**microsecond latency**).  
+- Output categories: *Normal*, *DoS*, *Exploit*, *Shellcode*.
+
 
 
 ---

@@ -18,7 +18,7 @@ After downloading the four files, combine them into a single dataset before trai
 From the project's `src` folder, run:
 
 ```bash
-python merge-data.py
+python merge_data.py
 ```
 
 This will create a merged dataset (e.g., `UNSW-NB15.csv`) inside the `data` folder, which is used by the project.
