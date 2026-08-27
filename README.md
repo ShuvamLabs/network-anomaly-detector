@@ -35,9 +35,10 @@ The TrackNET engine is built for microsecond-latency processing, designed to sit
 ### Option 1: The Quick Installer (Recommended)
 You do not need to compile the code to run TrackNET. 
 1. Navigate to the **[Releases](../../releases)** tab on this repository.
-2. Download `TrackNET_Setup.exe`.
-3. Run the installer (it will automatically prompt you to install the required **Npcap** packet capture driver).
-4. Launch TrackNET from your desktop shortcut!
+2. Download `TrackNET_Setup.zip`.
+3. Extract the zip file to get `TrackNET_Setup.exe`.
+4. Run the installer (it will automatically prompt you to install the required **Npcap** packet capture driver).
+5. Launch TrackNET from your desktop shortcut!
 
 ### Option 2: Build from Source (For Developers)
 If you want to compile the C++ engine yourself:
