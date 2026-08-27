@@ -18,6 +18,7 @@ The TrackNET engine is built for microsecond-latency processing, designed to sit
     *   TCP Handshake Timestamps (SYN, SYN-ACK, ACK)
     *   Round Trip Times (RTT)
     *   Packet sizes, TTL tracking, and payload payload bitrates.
+    *   Statistical Normalization & Encoding: Implements an in-memory StandardScaler pipeline (subtracting trained feature means and dividing by standard deviations) alongside categorical one-hot encoding for protocols,           states, and services to match the exact training distribution of the model.
 *   **Zero-Latency ML Integration:** Integrates the Microsoft **ONNX Runtime (C++ API)** to deserialize and execute a Scikit-Learn Random Forest model directly against live traffic arrays in memory.
 *   **Actionable Threat Intelligence:** Translates raw integer IP addresses into human-readable strings via `inet_ntoa` and outputs immediate, categorized threat alerts (e.g., Exploits, DoS, Shellcode) directly to the terminal.
 
