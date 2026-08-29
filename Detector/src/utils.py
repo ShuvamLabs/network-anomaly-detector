@@ -4,59 +4,26 @@ import joblib
 import pandas as pd
 
 
-def load_unsw_nb15(data_dir):
-    """
-    Load and combine the four UNSW-NB15 CSV files.
+def load_unsw_nb15(data_path):
 
-    Expected files:
-        UNSW-NB15_1.csv
-        UNSW-NB15_2.csv
-        UNSW-NB15_3.csv
-        UNSW-NB15_4.csv
-    """
+    data_path = Path(data_path)
 
-    data_dir = Path(data_dir)
-
-    csv_files = [
-        data_dir / "UNSW-NB15_1.csv",
-        data_dir / "UNSW-NB15_2.csv",
-        data_dir / "UNSW-NB15_3.csv",
-        data_dir / "UNSW-NB15_4.csv",
-    ]
-
-    missing_files = [
-        file for file in csv_files
-        if not file.exists()
-    ]
-
-    if missing_files:
+    if not data_path.exists():
         raise FileNotFoundError(
-            "The following dataset files are missing:\n"
-            + "\n".join(str(file) for file in missing_files)
+            f"Merged dataset not found: {data_path}"
         )
 
-    dataframes = []
+    print(f"Loading merged dataset: {data_path.name}")
 
-    for file in csv_files:
-        print(f"Loading: {file.name}")
-
-        df = pd.read_csv(
-            file,
-            low_memory=False
-        )
-
-        dataframes.append(df)
-
-        print(f"Rows loaded: {len(df):,}")
-
-    combined_df = pd.concat(
-        dataframes,
-        ignore_index=True
+    df = pd.read_csv(
+        data_path,
+        low_memory=False
     )
 
-    print(f"\nCombined dataset shape: {combined_df.shape}")
+    print(f"Rows loaded: {len(df):,}")
+    print(f"Dataset shape: {df.shape}")
 
-    return combined_df
+    return df
 
 
 def save_model(model, model_path):
@@ -108,7 +75,6 @@ def get_feature_columns(df, target_column, categorical_columns):
         for column in df.columns
         if column != target_column
     ]
-
     numeric_columns = [
         column
         for column in feature_columns

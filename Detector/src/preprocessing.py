@@ -60,31 +60,15 @@ def create_preprocessor(numeric_columns, categorical_columns, top_n=7):
     categorical_pipeline = Pipeline(
         steps=[
             ("imputer", SimpleImputer(strategy="most_frequent")),
-            (
-                "rare_categories",
-                RareCategories(top_n=top_n)
-            ),
-            (
-                "onehot",
-                OneHotEncoder(
-                    handle_unknown="ignore"
-                )
-            ),
+            ("rare_categories", RareCategories(top_n=top_n)),
+            ("onehot", OneHotEncoder(handle_unknown="ignore")),
         ]
     )
 
     preprocessor = ColumnTransformer(
         transformers=[
-            (
-                "num",
-                numeric_pipeline,
-                numeric_columns
-            ),
-            (
-                "cat",
-                categorical_pipeline,
-                categorical_columns
-            ),
+            ("num", numeric_pipeline, numeric_columns),
+            ("cat", categorical_pipeline, categorical_columns),
         ]
     )
 

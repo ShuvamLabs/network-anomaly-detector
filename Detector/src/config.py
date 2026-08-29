@@ -15,8 +15,9 @@ DATA_FILE = DATA_DIR / "UNSW-NB15.csv"
 
 
 # Model files
-BINARY_MODEL_PATH = MODELS_DIR / "binary_detector.pkl"
-CATEGORY_MODEL_PATH = MODELS_DIR / "attack_category_detector.pkl"
+MODEL_FILE = MODELS_DIR / "network_anomaly_detector.onnx"
+DETECTOR_FILE = MODELS_DIR / "attack_detector.pkl"
+CLASSIFIER_FILE = MODELS_DIR / "attack_classifier.pkl"
 
 
 # Target columns
@@ -25,7 +26,7 @@ CATEGORY_TARGET = "attack_cat"
 
 
 # Categorical features
-CATEGORICAL_COLUMNS = [
+categorical_columns = [
     "proto",
     "state",
     "service",
